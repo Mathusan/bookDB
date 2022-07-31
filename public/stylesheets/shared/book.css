@@ -25,7 +25,8 @@
 }
 
 .book-details {
-    display: flex; 
+    display: flex;
+    grid-template-columns: auto auto auto;
 }
 
 .book.book-details-label {
