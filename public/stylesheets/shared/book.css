@@ -14,19 +14,21 @@
 }
 
 .book-grid {
-    display: flex;
+    display: grid;
     justify-content: left;
     grid-gap: 2rem;
     grid-template-columns: repeat(auto-fiil, var(--book-cover-width));
+    grid-template-columns: auto auto auto ;
 }
 
 .book-grid-large {
     grid-template-columns: repeat(auto-fiil, var(--book-cover-width-large));
+    grid-template-columns: auto auto auto ;
 }
 
 .book-details {
     display: flex;
-    grid-template-columns: auto auto auto;
+    
 }
 
 .book.book-details-label {
